@@ -1,0 +1,58 @@
+.favorite-apps {
+  border: 1px solid black;
+  position: relative;
+  height: 800px;
+  max-width: 95%;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+.favorite-app-first,
+.favorite-app-second,
+.favorite-app-third,
+.favorite-app-fourth,
+.favorite-app-fifth,
+.favorite-app-sixth,
+.favorite-app-seventh,
+.favorite-app-eight {
+  position: absolute;
+  max-width: 40%;
+}
+
+.favorite-app-first {
+  top: 10px;
+  left: 0;
+}
+
+.favorite-app-second {
+  top: 40px;
+  left: 220px;
+}
+.favorite-app-third {
+  top: 160px;
+  left: 80px;
+}
+.favorite-app-fourth {
+  top: 320px;
+  left: 20px;
+}
+.favorite-app-fifth {
+  top: 300px;
+  left: 200px;
+}
+
+.favorite-app-sixth {
+  top: 460px;
+  left: 200px;
+}
+
+.favorite-app-seventh {
+  top: 600px;
+  left: 20px;
+}
+
+.favorite-app-eight {
+  max-width: 100%;
+  top: 600px;
+  left: 180px;
+}
